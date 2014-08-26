@@ -1,0 +1,593 @@
+function OAS_RICH(position) {
+if (position == 'Bottom') {
+document.write ('<div id="spPartnerBar" style="margin-bottom:30px;width:870px">\n');
+document.write ('<h4>Service von SPIEGEL-ONLINE-Partnern</h4><span style="float:right;font-size: 10px !important; font-weight: normal;text-align: right;margin-top:-18px;color:#666666">ANZEIGE</span><br>\n');
+document.write ('<div style="float:left;width:176px;"><script>OAS_RICH(');
+document.write ("'");
+document.write ('x01');
+document.write ("'");
+document.write (');</script></div>\n');
+document.write ('<div style="float:left;width:176px;"><script>OAS_RICH(');
+document.write ("'");
+document.write ('x02');
+document.write ("'");
+document.write (');</script></div>\n');
+document.write ('<div style="float:left;width:176px;"><script>OAS_RICH(');
+document.write ("'");
+document.write ('x03');
+document.write ("'");
+document.write (');</script></div>\n');
+document.write ('<div style="float:left;width:176px;"><script>OAS_RICH(');
+document.write ("'");
+document.write ('x04');
+document.write ("'");
+document.write (');</script></div>\n');
+document.write ('<div style="float:left;width:142px;"><script>OAS_RICH(');
+document.write ("'");
+document.write ('x05');
+document.write ("'");
+document.write (');</script></div>\n');
+document.write ('<iframe name="OASCOUNTBottom" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/841790433/Bottom/qc/container-eCommerce-spon-Logobox/container-eCommerce-spon-Logobox_01.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>\n');
+document.write ('</div>');
+}
+if (position == 'Bottom1') {
+document.write ('<script>\n');
+document.write ('var qcOffsetLeft = document.getElementById("wrapper").offsetLeft+910;\n');
+document.write ('if (location.href.indexOf("einestages.spiegel.de")==-1){\n');
+document.write ('if (window.addEventListener) {\n');
+document.write ('window.addEventListener("resize", qcResizeWpPosition, false);}\n');
+document.write ('else if (window.attachEvent) {\n');
+document.write ('window.attachEvent("onresize", qcResizeWpPosition);\n');
+document.write ('}\n');
+document.write ('}\n');
+document.write ('function qcResizeWpPosition()\n');
+document.write ('{\n');
+document.write ('document.getElementById("ftdiv934877").style.left = (document.getElementById("wrapper").offsetLeft+910) + "px";   // hier muss die ftpos-DIV-ID angepasst werden, Fire bug in Adserver-Preview genügt zum ermittteln\n');
+document.write ('}\n');
+document.write ('</script>\n');
+document.write ('<iframe name="OASCOUNTBottom1" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/1788982308/Bottom1/qc/ON35X20017X12/ON35X20017X12_02.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>\n');
+document.write ('<script language="Javascript1.1" type="text/javascript">\n');
+document.write ('var ftClick = "http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1788982308/Bottom1/qc/ON35X20017X12/ON35X20017X12_02.html/552b795459464f446c536f414133717a?";\n');
+document.write ('var ftExpTrack_934877 = "";\n');
+document.write ('var ftX = qcOffsetLeft;\n');
+document.write ('var ftY = "0";\n');
+document.write ('var ftZ = "1000001";\n');
+document.write ('var ftOBA = 1;\n');
+document.write ('var ftContent = "";\n');
+document.write ('var ftCustom = "";\n');
+document.write ('var ft200x600_OOBclickTrack = "";\n');
+document.write ('var ftRandom = Math.random()*1000000;\n');
+document.write ('var ftBuildTag1 = "<scr";\n');
+document.write ('var ftBuildTag2 = "</";\n');
+document.write ('var ftClick_934877 = ftClick;\n');
+document.write ('if(typeof(ft_referrer)=="undefined"){var ft_referrer=(function(){var r="";if(window==top){r=window.location.href;}else{try{r=window.parent.location.href;}catch(e){}r=(r)?r:document.referrer;}while(encodeURIComponent(r).length>1500){r=r.substring(0,r.length-1);}return r;}());}\n');
+document.write ('var ftDomain = (window==top)?"":(function(){var d=document.referrer,h=(d)?d.match("(?::q/q/)+([qw-]+(q.[qw-]+)+)(q/)?".replace(/q/g,decodeURIComponent("%"+"5C")))[1]:"";return (h&&h!=location.host)?"&ft_ifb=1&ft_domain="+encodeURIComponent(h):"";}());\n');
+document.write ('var ftTag = ftBuildTag1 + ');
+document.write ("'");
+document.write ('ipt language="javascript1.1" type="text/javascript" ');
+document.write ("'");
+document.write (';\n');
+document.write ('ftTag += ');
+document.write ("'");
+document.write ('src="http://servedby.flashtalking.com/imp/2/37943;934877;201;js;SpiegelDE;v0102FIXhomepage26082014imagedynamicsitebarxxnachrichtenportale/?ftx=');
+document.write ("'");
+document.write ('+ftX+');
+document.write ("'");
+document.write ('&fty=');
+document.write ("'");
+document.write ('+ftY+');
+document.write ("'");
+document.write ('&ftadz=');
+document.write ("'");
+document.write ('+ftZ+');
+document.write ("'");
+document.write ('&ftscw=');
+document.write ("'");
+document.write ('+ftContent+');
+document.write ("'");
+document.write ('&ft_custom=');
+document.write ("'");
+document.write ('+ftCustom+');
+document.write ("'");
+document.write ('&ftOBA=');
+document.write ("'");
+document.write ('+ftOBA+ftDomain+');
+document.write ("'");
+document.write ('&ft_referrer=');
+document.write ("'");
+document.write ('+encodeURIComponent(ft_referrer)+');
+document.write ("'");
+document.write ('&cachebuster=');
+document.write ("'");
+document.write ('+ftRandom+');
+document.write ("'");
+document.write ('" id="ftscript_200x600" name="ftscript_200x600"');
+document.write ("'");
+document.write (';\n');
+document.write ('ftTag += ');
+document.write ("'");
+document.write ('>');
+document.write ("'");
+document.write (' + ftBuildTag2 + ');
+document.write ("'");
+document.write ('script>');
+document.write ("'");
+document.write (';\n');
+document.write ('document.write(ftTag);\n');
+document.write ('</script>\n');
+document.write ('\n');
+}
+if (position == 'Bottom2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Bottom3') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Left') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Middle') {
+document.write ('<a href="http://adserv.quality-channel.de/5c/www.spiegel.de/homepage/center/L30/738844132/Middle/qc/sp-zaehler-011/zaehler.gif/552b795459464f446c536f414133717a" target="_top"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/sp-zaehler-011/zaehler.gif"  width="1" height="1" alt=""  border="0"></a><iframe name="OASCOUNTMiddle" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/738844132/Middle/qc/sp-zaehler-011/zaehler.gif/552b795459464f446c536f414133717a?_RM_EMPTY_&" style="display:none; width:0px; height:0px; border:0px"></iframe>');
+}
+if (position == 'Middle1') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Middle2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Middle3') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Middle4') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Position1') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Position2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Right') {
+document.write ('<!-- QC-Blocker auf qc/ON35X20017X12@Right -->');
+}
+if (position == 'Right1') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Right2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Right3') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Right4') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Right5') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightAut') {
+document.write ('<div align="center" class="spCommercial spR300" id="qcRightAutContainer">\n');
+document.write ('<h5><iframe name="OASCOUNTRightAut" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/1373672048/RightAut/qc/ON31XX6993X16/ON31XX6993X16_08.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>ANZEIGE</h5>\n');
+document.write ('<div class="spCommercialInner">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1373672048/RightAut/qc/ON31XX6993X16/ON31XX6993X16_08.html/552b795459464f446c536f414133717a?http://r.refinedads.com/r.rfa?aid=440&oid=903&c1=Spiegel&c2=www.spiegel.de&c3=spiegel_230x230&rfanoip=1&url=http%3A%2F%2Fweb.secmedia.de%2Fclick%2Fp.php%3Fp%3D0b1379a9f5711aaf47669fa20645ffd7%26u%3Dhttp%253A%252F%252Fwww.lidl.de%252Fde%252Fhaushalt-leicht-gemacht-ab-25-08%2Fc13309%253Fet_cid%253D8%2526et_lid%253D1321903" target="_blank"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON31XX6993X16/351_230x230.gif" width="230" height="230" border="0"></a></div></div>');
+}
+if (position == 'RightEin') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightGes') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightKar') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightKul') {
+document.write ('<div align="center" class="spCommercial spR300" id="qcRightKulContainer">\n');
+document.write ('<h5><iframe name="OASCOUNTRightKul" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/1869478977/RightKul/qc/ON31X20397XX1/ON31X20397XX1_01.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>ANZEIGE</h5>\n');
+document.write ('<div class="spCommercialInner">\n');
+document.write ('<!--Bei Weissraum-Anzeigen dieses Div nehmen <div class="spCommercialInner" style="border-style: solid !important;border-width : 1px;border-color:#000000;">-->\n');
+document.write ('<iframe id="RightKul" src="" width="230" height="230" border="0" frameborder="0" frameborder="no" marginwidth="0" topmargin="0" leftmargin="0" marginheight="0" hspace="0" vspace="0" valign="top" scrolling="no"></iframe>\n');
+document.write ('</div></div>\n');
+document.write ('<script>\n');
+document.write ('document.getElementById("RightKul").src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON31X20397XX1/ON31X20397XX1_02.html?url=http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1869478977/RightKul/qc/ON31X20397XX1/ON31X20397XX1_01.html/552b795459464f446c536f414133717a?[url_plain]";\n');
+document.write ('</script>');
+}
+if (position == 'RightNet') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightPan') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightPol') {
+document.write ('<div align="center" class="spCommercial spR300" id="qcRightPolContainer">\n');
+document.write ('<h5><iframe name="OASCOUNTRightPol" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/866675527/RightPol/qc/ON02X20005XX1/ON02X20005XX1_36.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>ANZEIGE</h5>\n');
+document.write ('<div class="spCommercialInner">\n');
+document.write ('<script>\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<div id="qcRightPol"></div>');
+document.write ("'");
+document.write (');\n');
+document.write ('function qcSwfWrite()\n');
+document.write ('{\n');
+document.write ('qcSwf("qcRightPol", "http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON02X20005XX1/", "http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/866675527/RightPol/qc/ON02X20005XX1/ON02X20005XX1_36.html/552b795459464f446c536f414133717a?h", "2f1_DFK01_230_230.swf?clicktag=", "http://www.mey-edlich.de/mey-edlich-de/pages/page.jsf?pageid=me_dynamic1_hw14%26wid=me_ba_dynamic1%26campaign=me_ba_c/sp/st/dynamic/dynamic1hw14&clicktarget=_blank", 230, 230, "RightPol", "8", "", "wmode=opaque,allowScriptAccess=always,loop=true,quality=high,menu=false,play=true", "2f1_DFK01_230_230.gif", "http://www.mey-edlich.de/mey-edlich-de/pages/page.jsf?pageid=me_dynamic1_hw14&wid=me_ba_dynamic1&campaign=me_ba_c/sp/st/dynamic/dynamic1hw14", "_blank", 230, 230);\n');
+document.write ('}\n');
+document.write ('if(typeof window.qcSwf!="function"){document.write(');
+document.write ("'");
+document.write ('<scr');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ipt src="http://adserv.quality-channel.de/images/qcSwf.js"></scr');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ipt>');
+document.write ("'");
+document.write (');}else{qcSwfWrite();}</script>\n');
+document.write ('</div></div>');
+}
+if (position == 'RightRei') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightSpa') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightSpo') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightUni') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightWir') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'RightWis') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Spezial') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Sub1') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Sub2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'Top1') {
+document.write ('<!-- QC-Blocker auf qc/ON35X20017X12@Top1 -->');
+}
+if (position == 'Top2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'TopRight') {
+document.write ('<img src="http://adserv.quality-channel.de/RealMedia/ads/cap.cgi?c=flashspon&e=1d&dv=1" width="1" height="1">\n');
+document.write ('<script>\n');
+document.write ('var mxvers=0;\n');
+document.write ('if(navigator.appName == "Netscape" && (navigator.userAgent.indexOf("Win")>=0 || navigator.userAgent.indexOf("Macintosh")>=0)){\n');
+document.write ('for(i=0;i<navigator.plugins.length;i++){\n');
+document.write ('if(navigator.plugins[i].description.indexOf("Flash ") >= 0) {\n');
+document.write ('mxvers=parseInt(navigator.plugins[i].description.substr(navigator.plugins[i].description.indexOf("Flash ")+6,2));\n');
+document.write ('break;\n');
+document.write ('}\n');
+document.write ('}\n');
+document.write ('}\n');
+document.write ('else {\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<sc');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ript language=VBScript>\\');
+document.write ('nmxvers = 11\\');
+document.write ('nmnvers = 4\\');
+document.write ('nDo\\');
+document.write ('nOn Error Resume Next\\');
+document.write ('nshkflg = (IsObject(CreateObject(\\');
+document.write ('"ShockwaveFlash.ShockwaveFlash.\\');
+document.write ('" & mxvers & \\');
+document.write ('"\\');
+document.write ('")))\\');
+document.write ('nIf shkflg Then Exit Do\\');
+document.write ('nmxvers = mxvers - 1\\');
+document.write ('nLoop While mxvers >= mnvers\\');
+document.write ('n</scr');
+document.write ("'");
+document.write ('+');
+document.write ("'");
+document.write ('ipt>');
+document.write ("'");
+document.write (');\n');
+document.write ('}\n');
+document.write ('mxvers=mxvers<=4?0:mxvers;\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<div style="position:absolute;top:0px;left:0px;width:3px;height:1px;z-index:1;"><IMG SRC="http://adserv.quality-channel.de/RealMedia/ads/adstream_lx.ads/www.spiegel.de/homepage/center/L30/1792036337/x55/qc/flash-test/flash');
+document.write ("'");
+document.write ('+mxvers+');
+document.write ("'");
+document.write ('.gif/552b795459464f446c536f414133717a?_RM_EMPTY_" WIDTH="1" HEIGHT="1" border="0">');
+document.write ("'");
+document.write (');\n');
+document.write ('if(navigator.userAgent.indexOf("Macintosh")>=0) {\n');
+document.write ('if (navigator.userAgent.indexOf("OS X")==-1 && navigator.userAgent.indexOf("5.2")==-1)\n');
+document.write ('{\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<IMG SRC="http://adserv.quality-channel.de/RealMedia/ads/adstream_lx.ads/www.spiegel.de/homepage/center/L30/1792036337/x56/qc/flash-test/macos9.gif/552b795459464f446c536f414133717a?_RM_EMPTY_" WIDTH="1" HEIGHT="1" border="0">');
+document.write ("'");
+document.write (');\n');
+document.write ('}\n');
+document.write ('else \n');
+document.write ('{\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<IMG SRC="http://adserv.quality-channel.de/RealMedia/ads/adstream_lx.ads/www.spiegel.de/homepage/center/L30/1792036337/x56/qc/flash-test/macosx.gif/552b795459464f446c536f414133717a?_RM_EMPTY_" WIDTH="1" HEIGHT="1" border="0">');
+document.write ("'");
+document.write (');\n');
+document.write ('}\n');
+document.write ('}\n');
+document.write ('if(navigator.userAgent.indexOf("inux")>=0) {\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('<IMG SRC="http://adserv.quality-channel.de/RealMedia/ads/adstream_lx.ads/www.spiegel.de/homepage/center/L30/1792036337/x57/qc/flash-test/linux.gif/552b795459464f446c536f414133717a?_RM_EMPTY_" WIDTH="1" HEIGHT="1" border="0">');
+document.write ("'");
+document.write (');\n');
+document.write ('}\n');
+document.write ('document.write(');
+document.write ("'");
+document.write ('</div>');
+document.write ("'");
+document.write (');\n');
+document.write ('</script><iframe name="OASCOUNTTopRight" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/1792036337/TopRight/qc/flash-test-spon/flash-test-spon_5.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>');
+}
+if (position == 'VMiddle') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'VMiddle2') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'VRight') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x01') {
+document.write ('<style>\n');
+document.write ('\n');
+document.write ('    .qc_teaser{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:10px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('     a.qc_teaser:link{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:visited{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:hover{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:active{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('    .qc_link{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:13px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('</style>\n');
+document.write ('<div style="width:142px; height:135px;border-width:1px;border-style:solid;border-color:#CCCCCC;background-color:#FFFFFF;padding:10px;">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/305726048/x01/qc/ON01X6978XLOGOBOX/ON01X6978XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://stellensuche.karriere.spiegel.de?campaign=spiegel_logobox_hp" target="_blank" rel="nofollow"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON01X6978XLOGOBOX/logo-monster-neu.jpg" width="140" height="40" border="0"></a>\n');
+document.write ('<div class="qc_teaser"><a class="qc_teaser" href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/305726048/x01/qc/ON01X6978XLOGOBOX/ON01X6978XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://stellensuche.karriere.spiegel.de?campaign=spiegel_logobox_hp" target="_blank" style="color:#000000;" rel="nofollow">Finden Sie einen besseren Job in Deutschlands<br>gro&szlig;er Jobb&ouml;rse.</a></div>\n');
+document.write ('<div class="qc_link"><a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/305726048/x01/qc/ON01X6978XLOGOBOX/ON01X6978XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://stellensuche.karriere.spiegel.de?campaign=spiegel_logobox_hp" target="_blank" style="color:#990000;" rel="nofollow">Weiter...</a></div>\n');
+document.write ('</div><div style="display:none;"><iframe name="OASCOUNTx01" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/305726048/x01/qc/ON01X6978XLOGOBOX/ON01X6978XLOGOBOX_02.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe></div>');
+}
+if (position == 'x02') {
+document.write ('<style>\n');
+document.write ('\n');
+document.write ('    .qc_teaser{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:10px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('     a.qc_teaser:link{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:visited{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:hover{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:active{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('    .qc_link{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:13px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('</style>\n');
+document.write ('<div style="width:142px; height:135px;border-width:1px;border-style:solid;border-color:#CCCCCC;background-color:#FFFFFF;padding:10px;">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/738673013/x02/qc/ON01X6960XLOGOBOX/ON01X6960XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://immowelt.spiegel.de?campaign=dis_spiegel_logobox_hp" target="_blank"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON01X6960XLOGOBOX/immowelt_logo_fin.jpg" width="140" height="40" border="0" rel="nofollow"></a>\n');
+document.write ('<div class="qc_teaser"><a class="qc_teaser" href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/738673013/x02/qc/ON01X6960XLOGOBOX/ON01X6960XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://immowelt.spiegel.de?campaign=dis_spiegel_logobox_hp" target="_blank" style="color:#000000;" rel="nofollow">Bis zu 1,2 Mio. Immobilienangebote pro Monat</a></div>\n');
+document.write ('<div class="qc_link"><a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/738673013/x02/qc/ON01X6960XLOGOBOX/ON01X6960XLOGOBOX_02.html/552b795459464f446c536f414133717a?http://immowelt.spiegel.de?campaign=dis_spiegel_logobox_hp" target="_blank" style="color:#990000;" rel="nofollow">Immobilie suchen...</a></div>\n');
+document.write ('</div><div style="display:none;"><iframe name="OASCOUNTx02" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/738673013/x02/qc/ON01X6960XLOGOBOX/ON01X6960XLOGOBOX_02.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe></div>');
+}
+if (position == 'x03') {
+document.write ('<style>\n');
+document.write ('\n');
+document.write ('    .qc_teaser{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:10px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('     a.qc_teaser:link{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:visited{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:hover{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:active{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('    .qc_link{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:13px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('</style>\n');
+document.write ('\n');
+document.write ('<div style="width:142px; height:135px;border-width:1px;border-style:solid;border-color:#CCCCCC;background-color:#FFFFFF;padding:10px;">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/364668952/x03/qc/ON31XX6993X17/ON31XX6993X17_08.html/552b795459464f446c536f414133717a?http://r.refinedads.com/r.rfa?aid=440&oid=903&c1=Spiegel&c2=www.spiegel.de&c3=spiegel_140x40&rfanoip=1&url=http%3A%2F%2Fweb.secmedia.de%2Fclick%2Fp.php%3Fp%3D0b1379a9f5711aaf47669fa20645ffd7%26u%3Dhttp%253A%252F%252Fwww.lidl.de%252Fde%252Fhaushalt-leicht-gemacht-ab-25-08%2Fc13309%253Fet_cid%253D8%2526et_lid%253D1321903" target="_blank"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON31XX6993X17/logobox_140x40_URL_neu.gif" width="140" height="40" border="0"></a>\n');
+document.write ('<div class="qc_teaser"><a class="qc_teaser" href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/364668952/x03/qc/ON31XX6993X17/ON31XX6993X17_08.html/552b795459464f446c536f414133717a?http://r.refinedads.com/r.rfa?aid=440&oid=903&c1=Spiegel&c2=www.spiegel.de&c3=spiegel_140x40&rfanoip=1&url=http%3A%2F%2Fweb.secmedia.de%2Fclick%2Fp.php%3Fp%3D0b1379a9f5711aaf47669fa20645ffd7%26u%3Dhttp%253A%252F%252Fwww.lidl.de%252Fde%252Fhaushalt-leicht-gemacht-ab-25-08%2Fc13309%253Fet_cid%253D8%2526et_lid%253D1321903" target="_blank" style="color:#000000;" rel="nofollow">Ab 25.08. bei Lidl: Haushalt leicht gemacht!</a></div>\n');
+document.write ('<div class="qc_link"><a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/364668952/x03/qc/ON31XX6993X17/ON31XX6993X17_08.html/552b795459464f446c536f414133717a?http://r.refinedads.com/r.rfa?aid=440&oid=903&c1=Spiegel&c2=www.spiegel.de&c3=spiegel_140x40&rfanoip=1&url=http%3A%2F%2Fweb.secmedia.de%2Fclick%2Fp.php%3Fp%3D0b1379a9f5711aaf47669fa20645ffd7%26u%3Dhttp%253A%252F%252Fwww.lidl.de%252Fde%252Fhaushalt-leicht-gemacht-ab-25-08%2Fc13309%253Fet_cid%253D8%2526et_lid%253D1321903" target="_blank" style="color:#990000;" rel="nofollow">Aktuelle Angebote jetzt entdecken!</a></div>\n');
+document.write ('</div><div style="display:none;"><iframe name="OASCOUNTx03" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/364668952/x03/qc/ON31XX6993X17/ON31XX6993X17_08.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe><img src="http://d.refinedads.com/d.rfa?v=x1&aid=440&oid=903&c1=Spiegel&c2=www.spiegel.de&c3=spiegel_140x40&rfanoip=1&url=" width="1" height="1" border="0" style="display:none;"></div>');
+}
+if (position == 'x04') {
+document.write ('<style>\n');
+document.write ('\n');
+document.write ('    .qc_teaser{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:10px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('     a.qc_teaser:link{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:visited{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:hover{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:active{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('    .qc_link{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:13px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('</style>\n');
+document.write ('<div style="width:142px; height:135px;border-width:1px;border-style:solid;border-color:#CCCCCC;background-color:#FFFFFF;padding:10px;">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1812391657/x04/qc/ON09X20161XLOGOBOXHP/ON09X20161XLOGOBOXHP_03.html/552b795459464f446c536f414133717a?http://stromvergleich.spiegel.de?wt_mc=1333.extern.logobox.link.stromvergleich" target="_blank" rel="nofollow"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON09X20161XLOGOBOXHP/verivox-neu.png" width="140" height="40" border="0"></a>\n');
+document.write ('<div class="qc_teaser"><a class="qc_teaser" href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1812391657/x04/qc/ON09X20161XLOGOBOXHP/ON09X20161XLOGOBOXHP_03.html/552b795459464f446c536f414133717a?http://stromvergleich.spiegel.de?wt_mc=1333.extern.logobox.link.stromvergleich" target="_blank" style="color:#000000;" rel="nofollow">Stromanbieter wechseln<br>& 300&euro; sparen!</a><br><br></div>\n');
+document.write ('<div class="qc_link"><a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/1812391657/x04/qc/ON09X20161XLOGOBOXHP/ON09X20161XLOGOBOXHP_03.html/552b795459464f446c536f414133717a?http://stromvergleich.spiegel.de?wt_mc=1333.extern.logobox.link.stromvergleich" target="_blank" style="color:#990000;" rel="nofollow">Zum Tarifvergleich...</a></div>\n');
+document.write ('</div><div style="display:none;"><IMG SRC="http://adserv.quality-channel.de/RealMedia/ads/adstream_lx.ads/www.spiegel.de/homepage/center/L30/1812391657/x04/qc/ON09X20161XLOGOBOXHP/ON09X20161XLOGOBOXHP_03.html/552b795459464f446c536f414133717a?_RM_EMPTY_" WIDTH="1" HEIGHT="1" BORDER="0"/></div>');
+}
+if (position == 'x05') {
+document.write ('<style>\n');
+document.write ('\n');
+document.write ('    .qc_teaser{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:10px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('     a.qc_teaser:link{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:visited{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:hover{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('     a.qc_teaser:active{\n');
+document.write ('      text-decoration:none; color:#000000;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('\n');
+document.write ('    .qc_link{\n');
+document.write ('      font-family:arial,helvetica,sans-serif;\n');
+document.write ('      font-size:12px;\n');
+document.write ('      text-align:left;\n');
+document.write ('      line-height:15px;\n');
+document.write ('      padding-top:13px;\n');
+document.write ('    }\n');
+document.write ('\n');
+document.write ('</style>\n');
+document.write ('<div style="width:142px; height:135px;border-width:1px;border-style:solid;border-color:#CCCCCC;background-color:#FFFFFF;padding:10px;">\n');
+document.write ('<a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/184774501/x05/qc/ON01X6684XLOGOBOXHOME/ON52X5958XLOGOBOX_09.html/552b795459464f446c536f414133717a?http://www.spiegel.de/panorama/partnersuche-neu-de-a-973814.html" target="_blank" rel="nofollow"><img src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON01X6684XLOGOBOXHOME/NEUDE_Logo_Adjustment_Web_140x40.jpg" width="140" height="41" border="0"></a>\n');
+document.write ('<div class="qc_teaser"><a class="qc_teaser" href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/184774501/x05/qc/ON01X6684XLOGOBOXHOME/ON52X5958XLOGOBOX_09.html/552b795459464f446c536f414133717a?http://k.ilius.net/?mtcmk=685051&fsid=074" target="_blank" style="color:#000000;" rel="nofollow">Finden Sie einen Partner aus Ihrer N&auml;he, der wirklich zu Ihnen passt.</a></div>\n');
+document.write ('<div class="qc_link"><a href="http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/184774501/x05/qc/ON01X6684XLOGOBOXHOME/ON52X5958XLOGOBOX_09.html/552b795459464f446c536f414133717a?http://k.ilius.net/?mtcmk=685051&fsid=074" target="_blank" style="color:#990000;" rel="nofollow">Jetzt kostenlos anmelden</a></div>\n');
+document.write ('</div><div style="display:none;"><iframe name="OASCOUNTx05" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/184774501/x05/qc/ON01X6684XLOGOBOXHOME/ON52X5958XLOGOBOX_09.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe></div>');
+}
+if (position == 'x06') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x07') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x08') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x09') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x10') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x11') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x12') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x20') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x21') {
+document.write ('<iframe id="qcx21" src="" height="170" width="230" border="0" frameborder="0" frameborder="no" marginwidth="0" topmargin="0" leftmargin="0" marginheight="0" hspace="0" vspace="0" valign="top" scrolling="no"></iframe>\n');
+document.write ('<script>\n');
+document.write ('document.getElementById("qcx21").src="http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON23XX4454XX2013X21/ON23XX4454XX2013X21_35.html?url=http://adserv.quality-channel.de/RealMedia/ads/click_lx.ads/www.spiegel.de/homepage/center/L30/378879736/x21/qc/ON23XX4454XX2013X21/ON23XX4454XX2013X21_34.html/552b795459464f446c536f414133717a?&path=http://adserv.quality-channel.de/RealMedia/ads/Creatives/qc/ON23XX4454XX2013X21/";\n');
+document.write ('</script>\n');
+document.write ('<iframe name="OASCOUNTx21" src="http://adserv.quality-channel.de/5/www.spiegel.de/homepage/center/L30/378879736/x21/qc/ON23XX4454XX2013X21/ON23XX4454XX2013X21_34.html/552b795459464f446c536f414133717a?_RM_EMPTY_" style="display:none; width:0px; height:0px; border:0px"></iframe>');
+}
+if (position == 'x22') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x23') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+if (position == 'x70') {
+document.write ('<span class="quchnoad" style="display:none;"></span>');
+}
+}

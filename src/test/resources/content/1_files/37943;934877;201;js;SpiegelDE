@@ -1,0 +1,28 @@
+
+var ftGUID_934877="23376BFA0FC11D";
+var ftConfID_934877="0";
+var ftParams_934877="ftx=1030&fty=0&ftadz=1000001&ftscw=&ft_custom=&ftOBA=1&ft_referrer=http%3A%2F%2Fwww.spiegel.de%2F&cachebuster=135326.22274942696";
+var ftKeyword_934877="";
+var ftCustom_934877="";
+var ftSection_934877="";
+var ftSegment_934877="";
+var ftSegmentList_934877=[];
+var ftRuleMatch_934877="0";
+var ftTimestamp_934877="1409073240";
+var ftGeoC2_934877="de";
+var ftGeoState_934877="he";
+var ftGeoCity_934877="frankfurt am main";
+var ftISP_934877="qsc ag";
+var ftSpeed_934877="xdsl";
+var ftDMA_934877="276003";
+var ftLong_934877="8.69569";
+var ftLat_934877="50.102";
+var ftPostal_934877="60596";
+var ftTimeZone_934877="200";
+var ftMobileCarrier_934877="";
+var ftImp934877 = {};
+ftImp934877.privacy = "x";
+ftImp934877.guidAge = "92";
+
+document.write('<scr'+'ipt src="http://cdn.flashtalking.com/xre/93/934877/804240/js/j-934877-804240.js" id="ftscript_m934877" name="ftscript_m934877"></scr'+'ipt>');
+                    

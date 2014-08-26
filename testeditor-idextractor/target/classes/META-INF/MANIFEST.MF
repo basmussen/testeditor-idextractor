@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: basmussen
+Build-Jdk: 1.8.0_20
+Class-Path: lib/dom4j-1.6.1.jar lib/xml-apis-1.0.b2.jar lib/jaxen-1.1.
+ 1.jar lib/jdom-1.0.jar lib/xercesImpl-2.6.2.jar lib/xom-1.0.jar lib/x
+ mlParserAPIs-2.6.2.jar lib/xalan-2.6.0.jar lib/icu4j-2.6.1.jar lib/jt
+ idy-r938.jar lib/commons-io-2.4.jar lib/commons-cli-1.2.jar lib/log4j
+ -1.2.14.jar
+Main-Class: com.benasmussen.tools.testeditor.ExtractorCLI
+Created-By: Maven Integration for Eclipse
+
