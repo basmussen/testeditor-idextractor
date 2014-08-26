@@ -3,8 +3,8 @@ TestEditor.org - Html ID Extractor
 
 
 
-Available options:
+**Available options**
 ----------------------------------------------------------------------------------------------------
 |**Name**               |**Type**               |**Example**                        |**Description**|
 |-----------------------|-----------------------|-----------------------------------|-------------|
-|-input              |Html                   |folder/index.html             |HTML Input file|
+|-input              |File                   |folder/index.html             |HTML Input file|
